@@ -1,0 +1,73 @@
+#ip{
+  text-align: center;
+  box-shadow: 0 0 8px 5px silver;
+}
+#btn:hover{
+  box-shadow: 0px 0px 6px 4px silver;
+  cursor: pointer;
+  transition: 600ms;
+}
+#displayWeather{
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  justify-content: stretch;
+}
+#currentStatistics{
+  display: inherit;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+  box-shadow: 0 0 8px 5px silver;
+}
+#futureStatistics{
+  margin: auto;
+  display: inherit;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 0 0 8px 5px silver;
+}
+.cd{
+  display: inherit;
+  flex-direction: row;
+  margin: 5px;
+}
+.cs{
+  display: inherit;
+  margin: 5px;
+  flex-direction: column;
+  color: black;
+}
+.cs:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 3px grey;
+  color: black;
+  transition: 600ms;
+  
+}
+#prv{
+  box-shadow: 0 0 8px 5px silver;
+}
+#prv:hover{
+  box-shadow: 0px 0px 6px 4px silver;
+  cursor: pointer;
+  transition: 600ms;
+}
+#previous{
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: space-between;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0px 0px 10px 5px silver;
+}
+.cxx{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 10px;
+}
+#prevButton{
+  text-align: center;
+}

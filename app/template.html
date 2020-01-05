@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+  </head>
+  <body>
+    <div id="ip">
+      <br>
+      <input type="text" id="city" placeholder="Enter the city name">
+      <br><br>
+      <button type="submit" id="btn">Check!!!</button>
+      <br><br>
+    </div>
+    <div id="op">
+      <div id="displayWeather">
+        <div id="currentStatistics">
+          <div class="cd">
+            <i class="fas fa-map-marker-alt"></i>
+            <span><b>Area:</b> <span id="local"></span></span>
+          </div>
+          <div class="cd">
+            <i class="fas fa-temperature-high"></i>
+            <span><b>Max:</b> <span id="tempCurrentMax"></span> &deg;C</span>
+          </div>
+          <div class="cd">
+            <i class="fas fa-temperature-low"></i>
+            <span><b>Min:</b> <span id="tempCurrentMin"></span> &deg;C</span>
+          </div>
+          <div class="cd">
+            <i class="fas fa-wind"></i>
+            <span><b>Wind:</b> <span id="windSpeedHtml"></span> m/s</span>
+          </div>
+        </div>
+        <br><br>
+        <div id="futureStatistics">
+          <button class="cs" id="btn1">
+            <i class="far fa-calendar-alt"></i>
+            <span id="day1">01</span>
+          </button>
+          <button class="cs" id="btn2">
+            <i class="far fa-calendar-alt"></i>
+            <span id="day2">11</span>
+          </button>
+          <button class="cs" id="btn3">
+            <i class="far fa-calendar-alt"></i>
+            <span id="day3">11</span>
+          </button>
+          <button class="cs" id="btn4">
+            <i class="far fa-calendar-alt"></i>
+            <span id="day4">11</span>
+          </button>
+          <button class="cs" id="btn5">
+            <i class="far fa-calendar-alt"></i>
+            <span id="day5">11</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <p><div id="prevButton">
+      <button id="prv">previous searches</button>
+    </div></p>
+    <br><br>
+    <div id="previous">
+   
+    </div>
+  </body>
+</html>
